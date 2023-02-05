@@ -1,5 +1,18 @@
 /* CSS file for white water rafting site */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Raleway&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, 'Arial rounded', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
 
 #content {
     max-width: 1600px;
@@ -10,10 +23,15 @@
     width: 100px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #F2F2F2;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -33,17 +51,24 @@ nav a:hover {
     text-align: center;
 }
 
+.home-title {
+    color: #021D40;
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
     background-color: #F2F2F2;
-}
-
-body {
-    background-color: #fcfbfb;
 }
 
 header {
@@ -54,6 +79,10 @@ header {
 .book, .join {
     color: #F2913D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -68,26 +97,43 @@ header {
 .msg {
     background-color: #021D40;
     color: #F2F2F2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-footer {
-    background-color: #021D40;
-    color: #F2F2F2;
+.msg h2 {
+    color: #117DBF;
+    font-family: Quicksand, Helvetica, sans-serif;
 }
-.home-title {
-    color: #021D40;
+
+.msg p {
+    color: #F2F2F2;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card .camping-card .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #021D40;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
 
 h4 {
     color: #117DBF;
 }
 
-.msg h2 {
-    color: #117DBF;
-}
-
-.msg p {
+footer {
+    background-color: #021D40;
     color: #F2F2F2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -104,7 +150,9 @@ footer p {
     font-size: 1.2em;
 }
 
-
-.icon {
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
 }
+
+
+
