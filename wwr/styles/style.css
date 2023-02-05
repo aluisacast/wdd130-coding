@@ -53,7 +53,7 @@ nav a:hover {
 
 .home-title {
     color: #021D40;
-    font-family: Quicksand, Helvetica, sans-serif;
+    font-family: Quicksand, 'Arial rounded', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -103,7 +103,7 @@ header {
 
 .msg h2 {
     color: #117DBF;
-    font-family: Quicksand, Helvetica, sans-serif;
+    font-family: Quicksand, 'Arial rounded', sans-serif;
 }
 
 .msg p {
