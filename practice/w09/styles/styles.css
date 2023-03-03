@@ -1,0 +1,64 @@
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    width: 100%;
+}
+
+h4 {
+    color: #3c5c8b;
+}
+
+#main {
+    overflow: hidden;
+
+    margin: 35px;
+    color: gray;
+    width: auto;
+    height: 100px;
+}
+
+
+footer {
+    background-color: #3c5c8b;
+    color: azure;
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+#read {
+    padding: 1rem;
+    grid-column: 1/2;
+    
+}
+
+#views {
+    padding: 1rem;
+    grid-column: 2/3;
+    border-left: 1px solid beige;
+    border-right: 1px solid beige;
+}
+
+
+#comments {
+    padding: 1rem;
+    grid-column: 3/4;
+}
+.number {
+    font-size: 2.5rem;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
