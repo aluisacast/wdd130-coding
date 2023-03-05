@@ -404,5 +404,9 @@ details p {
         margin: 50px auto;
         width: 60%;
     }
+
+    #adv-book {
+        align-items: center;
+    }
 }
 
