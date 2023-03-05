@@ -389,7 +389,7 @@ details p {
     #home-background, #adventures-background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .adv-img, #adv1, #adv2  {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -397,18 +397,11 @@ details p {
     footer {
         margin-top: 25px;
     }
-    #adventures-grid {
-        display: block;
-    }
-    .adv-img, .adv-msg {
-        margin: 50px auto;
-        width: 80%;
-    }
 
     #adv-book {
         align-items: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 }
 
