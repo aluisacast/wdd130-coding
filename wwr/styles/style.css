@@ -372,24 +372,20 @@ details p {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #banner{
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg #banner-msg{
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
-    /* .home-title {
-        font-size: 22px;
-        color: #021D40;
-    } */
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
-    #home-background {
+    #home-background #adventures-background {
         display: none;
     }
     .mountains, .msg {
@@ -399,6 +395,10 @@ details p {
     }
     footer {
         margin-top: 25px;
+    }
+    #adv-img, .adv-msg {
+        margin: 50px auto;
+        width: 80%;
     }
 }
 
