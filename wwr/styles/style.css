@@ -407,6 +407,8 @@ details p {
 
     #adv-book {
         align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 
