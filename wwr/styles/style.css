@@ -400,7 +400,7 @@ details p {
     #adventures-grid {
         display: block;
     }
-    #adv-img, .adv-msg {
+    .adv-img, .adv-msg {
         margin: 50px auto;
         width: 60%;
     }
