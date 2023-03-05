@@ -389,7 +389,7 @@ details p {
     #home-background {
         display: none;
     }
-    .mountains, .msg, .adv-img, #adv1, #adv2  {
+    .mountains, .msg  {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -400,6 +400,12 @@ details p {
 
     #adventure-grid {
         display: block;
+    }
+
+    .adv-img, #adv1, #adv2  {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 
     #adv-book {
