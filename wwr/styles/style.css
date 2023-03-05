@@ -73,7 +73,7 @@ nav a:hover {
     margin-top: 110px;
 }
 
-#hero-msg h1, #hero-msg h4, #banner-msg h1{
+#hero-msg h1, #hero-msg h4, #banner-msg h1 {
     text-align: center;
 }
 
@@ -328,7 +328,34 @@ footer .social img {
     z-index: 0;
 
 }
+h2 {
+    color: #021D40;
+    font-family: Quicksand, 'Arial rounded', sans-serif;
+    font-size: 2em;
+    margin: 50px 0px 25px 50px;
+}
 
+summary {
+    cursor: pointer;
+}
+summary h1 {
+    display: inline;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+details {
+    margin: 0px 50px 10px 50px;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f2f2f2;
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.15);
+}
+
+details p {
+    margin-left: 1.75rem;
+    opacity: 0.7;
+}
 /* --------------------------------------------- */
 
 /* --------------------------------------------- */
