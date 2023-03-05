@@ -396,10 +396,12 @@ details p {
     footer {
         margin-top: 25px;
     }
+    #adventures-grid {
+        display: block;
+    }
     #adv-img, .adv-msg {
         margin: 50px auto;
         width: 80%;
-        display: block;
     }
 }
 
