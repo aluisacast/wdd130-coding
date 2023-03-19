@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>AL</title>
 </head>
 <body>
@@ -11,25 +12,48 @@
         <a id="logo_link" href="index.html" >
             <img class="logo" src="images/al.png" alt="Ana Luisa Logo">  
         </a>
-        <a id="menu" href="menu.html">
-            <img src="images/four-squares-line-icon.png" alt="Four Squares Menu Icon">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="site-plan.html">Site Plan</a>
+        </nav>
+        <a id="menu_link" href="menu.html">
+            <img class="menu" src="images/menu-icon.png" alt="Four Squares Menu Icon"> 
         </a>
     </header>
     <main>
-        <div id="home-msg">
-            <h1>Hello <br>My name is Ana Luisa</h1>
-            <p>
-                I consider myself a very passionate person, when something catches my interest, I won’t let go until I know how and why it works. What excites me more about web and software development is the ability to create beautiful sites that can catch the eye and have a purpose at the same time.
-            </p>
-        </div>
-        <img src="images/me-o.jpeg" alt="Picture of Ana Luisa">
-        <div>
-            <a href="aboutme.html">
-                <img src="images/chevron-right-icon.png" alt="Arrow down icon">
-            </a>
-            <h4>About Me</h4>
-        </div>
+        <section id="home">
+            <div id="home_msg">
+                <h1>Hello!</h1>
+                <h2>My name is Ana Luisa</h2>
+                <p>
+                    What excites me more about web and software development is the ability to create beautiful sites that can catch the eye and have a purpose at the same time.
+                </p>
+            </div>
+            <img id="home_img" src="images/me-main.jpg" alt="Picture of Ana Luisa">
+        </section>
+        
+        <section id="about_link">
+            <img class="right_icon" src="images/chevron-right-icon2.png" alt="Arrow down icon">
+            <div class="button-box">
+                <a id="link_msg" href="aboutme.html">About Me</a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p> Ana Luisa Castañeda Garces &copy; 2023</p>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <div class="social">
+            <a class="social_logo" href="https://github.com/aluisacast" target="_blank">
+                <img src="images/github-icon.png" alt="Github icon">
+            </a>
+            <a class="social_logo" href="https://www.linkedin.com/in/alcast/" target="_blank">
+                <img src="images/linkedin-square-color-icon.png" alt="LinkedIn icon">
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap');
+
+body {
+    background-color: #F2EDDC;
+    font-size: 22px;
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
+    color: #3C3D59;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 50px;
+}
+
+header img {
+    width: 20px;
+    padding-top: 20px;
+
+}
+
+#close_icon {
+    grid-column-start: 2;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div a {
+    margin: 50px;
+    font-family: "Yeseva One", Cambria, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: #010326;
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: wavy underline;
+
+}
+
