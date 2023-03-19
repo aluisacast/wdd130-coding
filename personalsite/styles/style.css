@@ -60,19 +60,18 @@ h2 {
     grid-column: 3/4;
 } 
 
-
-
-#home {
+#home, #about_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px 50px 0px;
-
+    justify-content: space-between;
 }
 
-#home_msg {
+.msg {
     min-width: 400px;
     max-width: 900px;
     align-self: center;
+    text-justify: distribute;
 }
 
 #home_img {
@@ -157,3 +156,22 @@ footer a:visited {
 .social_logo:link {
     text-decoration: none;
 }
+
+/* About Me page */
+
+#about_main section {
+    align-content: end;
+    justify-self: center;
+    padding: 50px;
+}
+
+#about_main img {
+    width: 30rem;
+    box-sizing: border-box;
+}
+
+#quote {
+    grid-column: 2/3;
+    margin-top: 50px;
+}
+
