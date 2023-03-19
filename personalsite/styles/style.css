@@ -71,7 +71,7 @@ h2 {
     min-width: 400px;
     max-width: 900px;
     align-self: center;
-    text-justify: distribute;
+    text-justify: auto
 }
 
 #home_img {
