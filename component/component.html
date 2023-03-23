@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<style>
+    body {
+        margin: 50px;
+    }
+    .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    }
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    /* Add some padding inside the card container */
+    .container {
+    padding: 2px 16px;
+}
+    .control-width { 
+        width: 70%; 
+        margin: auto; 
+        padding: 30px;
+    }
+    
+
+    .card2:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+</style>
 <body>
-
-<div class="split left">
-  <div class="centered">
-    <img src="adventure-o.png" alt="Avatar woman">
-    <h2>HTML & CSS</h2>
-    <p>Some text.</p>
-  </div>
+  <h1>Building a Simple Web Component</h1>
+<div class="control-width">
+    <a href="https://github.com/aluisacast/python-projects">
+        <div class="card">
+            <img src="game-o.png" alt="Avatar" width="200px">
+            <div class="container">
+              <h4><b>Python</b></h4>
+              <p></p>
+            </div>
+          </div>
+    </a>
 </div>
-
-<div class="split right">
-  <div class="centered">
-    <img src="game-o.png" alt="Avatar man">
-    <h2>Python</h2>
-    <p>Some text here too.</p>
-  </div>
+<div class="control-width">
+    <a href="https://github.com/aluisacast/wdd130-coding">
+        <div class="card">
+            <img src="adventure-o.png" alt="Avatar" width="200px">
+            <div class="container">
+            <h4><b>HTML & CSS</b></h4>
+            <p></p>
+            </div>
+        </div>
+    </a>
 </div>
-     
 </body>
 </html> 
