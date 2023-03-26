@@ -37,7 +37,7 @@ div {
 }
 
 div a {
-    margin: 50px;
+    margin: 40px;
     font-family: "Yeseva One", Cambria, 'Times New Roman', serif;
     font-size: 3rem;
     color: #010326;
@@ -45,7 +45,7 @@ div a {
 }
 
 div a:hover {
-    text-decoration: wavy underline;
+    color: #F2E0BD;
 
 }
 
