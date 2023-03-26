@@ -23,55 +23,95 @@
             <img class="menu" src="images/menu-icon.png" alt="Four Squares Menu Icon"> 
         </a>
     </header>  
-    <main>
-        <h1>Projects</h1>
-        <section id="python" class="language">
-            <h2 class="language-name">
-                Python
-            </h2>
-            <img src="images/game-o.png" alt="Screenshots of a python code">
+    <main id="projects_main">
+        <div class="msg">
+            <h1>Projects</h1>
+        </div>
+        <div id="projects_div">
+            <section id="python" class="language">
+                <h2 class="language-name">
+                    Python
+                </h2>
 
-            <div>
-                <h3 class="project-title">Choose your own adventure game</h3>
-                <p>It is a story where the user can choose what the adventure’s hero does in their quest to find a treasure. Includes ASCII art in some of the decisions the user chooses. While detecting if the input placed by the user when choosing an option is valid.</p>
-            </div>
+                <div class="control-width">
+                    <a href="https://github.com/aluisacast/python-projects/blob/main/Adventure_Gamepy.py">
+                        <div class="card">
+                            <div class="container">
+                                <img src="images/adventure.png" alt="image of code">
+                              <h4><b>Choose your own adventure game</b></h4>
+                              <p>It is a story where the user can choose what the adventure’s hero does in their quest to find a treasure. Includes ASCII art in some of the decisions the user chooses. While detecting if the input placed by the user when choosing an option is valid.</p>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+    
+                <div class="control-width">
+                    <a href="https://github.com/aluisacast/python-projects/blob/main/Word_Game.py">
+                        <div class="card">
+                            <div class="container">
+                                <img src="images/wordgame.png" alt="image of code">
+                              <h4><b>Wordle type game</b></h4>
+                              <p>Game where a user can guess a word from a list. It compares the amount of letters in the input and in the guess word. It gives hints of the placement of the letters. Perceives the number of guesses the user needed to guess the word. It will continue to loop until the user wants to stop playing.</p>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+    
+                <div class="control-width">
+                    <a href="https://github.com/aluisacast/python-projects/blob/main/LifeExpectancy_DataAnalysis.py">
+                        <div class="card">
+                            <div class="container">
+                                <img src="images/lifeexpectancy.png" alt="image of code">
+                              <h4><b>Data analysis, Life expectancy</b></h4>
+                              <p>Reading and analysis of the chosen variables of the user for the 1523 -2019 World Life Expectancy. The user can compare the Life Expectancy by country, year, or the overall max and min life expectancy in the world.</p>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+    
+                <div class="control-width">
+                    <a href="https://github.com/aluisacast/python-projects/blob/main/Shopping_Cart_Program.py">
+                        <div class="card">
+                            <div class="container">
+                                <img src="images/shoppingcart.png" alt="image of code">
+                              <h4><b>Shopping cart program</b></h4>
+                              <p>A shopping cart where you can add new products with their prices, mmodify the price, the product or both, compute total with and without local taxes, and visualize the shopping cart.</p>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+    
+            </section>
+            <section id="web" class="language">
+                <h2 class="language-name">
+                    HTML & CSS
+                </h2>  
+    
+                <div class="control-width">
+                    <a href="https://aluisacast.github.io/wdd130-coding/wwr/index.html">
+                        <div class="card">
+                            <div class="container">
+                                <img src="images/riventure.png" alt="Riventure logo">
+                                <h4><b>White Water Rafting Site</b></h4>
+                                <p>Webpage that offers services for a white-water rafting company. Site Plan, where the Logo, color palette and font where chosen. Design of the Wireframes and development of child pages.</p>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+            </section>
+        </div>
 
-            <div>
-                <h3 class="project-title">Wordle type game</h3>
-                <p>Game where a user can guess a word from a list. It compares the amount of words the user places in the input and the amount of letters in the guess word. It gives hints, of the placement of the letters. Perceives the number of guesses the user needed to guess the word. It will continue to loop until the user wants to stop playing.</p>
-            </div>
-
-            <div>
-                <h3 class="project-title">Data analysis, Life expectancy</h3>
-                <p> Reading and analysis of the chosen variables of the user for the 1523 -2019 World Life Expectancy. The user can compare the Life Expectancy by country, year, or the overall max and min life expectancy in the world.</p>
-            </div>
-
-            <div>
-                <h3 class="project-title">Shopping cart program</h3>
-                <p>A shopping cart where you can add new products with their prices, mmodify the price, the product or both, compute total with and without local taxes, and visualize the shopping cart.</p>
-            </div>
-        </section>
-        <section id="html&css" class="language">
-            <h2 class="language-name">
-                HTML & CSS
-            </h2>  
-            <img src="images/adventure-o.png" alt="Screenshots of a webpage">
-
-            <div>
-                <h3 class="project-title">White Water Rafting Site</h3>
-                <p> Webpage that offers services for a white-water rafting company. Site Plan, where the Logo, color palette and font where chosen. Design of the Wireframes and development of child pages.
-                </p>
-            </div>
-        </section>
+        
     </main>
     <footer>
         <p> Ana Luisa Castañeda Garces &copy; 2023</p>
-
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
         <div class="social">
-            <a href="https://github.com/aluisacast" target="_blank">
+            <a class="social_logo" href="https://github.com/aluisacast" target="_blank">
                 <img src="images/github-icon.png" alt="Github icon">
             </a>
-            <a href="https://www.linkedin.com/in/alcast/" target="_blank">
+            <a class="social_logo" href="https://www.linkedin.com/in/alcast/" target="_blank">
                 <img src="images/linkedin-square-color-icon.png" alt="LinkedIn icon">
             </a>
         </div>

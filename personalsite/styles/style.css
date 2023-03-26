@@ -177,3 +177,67 @@ footer a:visited {
 #img_quote {
     margin-left: 120px;
 }
+
+/* -------------------------- */
+#projects_main {
+    margin: 10px 50px 0px;
+    
+}
+
+#projects_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.language-name {
+    text-align: center;
+}
+
+.language img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+.card {
+/* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 #010326;
+    transition: 0.3s;
+    width: 500px;
+    height: 500px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 #010326;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+.control-width { 
+    width: 70%; 
+    margin: auto; 
+    padding: 30px;
+}
+
+.card2:hover { box-shadow: 0 8px 16px 0 #010326; }
+
+
+#projects_div a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#projects_div p {
+    font-size: 17px;
+}
+
+#web img {
+    width: 250px;
+}
